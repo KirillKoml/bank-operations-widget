@@ -1,8 +1,10 @@
 import json
+from pathlib import Path
 
-with open("C:\Users\User\Desktop\skypro\cw3\funcs\operations.json", 'r', encoding='utf8') as file:
-    operations = file.read()
-    json_file = json.loads(operations)
+FILE_PATH = Path(__file__).parent / "operations.json"
+
+with open(FILE_PATH, "r", encoding="utf8") as file:
+    operations = json.load(file)
 
 
 def sort_by_date(json_file):
