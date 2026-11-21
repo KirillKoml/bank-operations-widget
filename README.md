@@ -12,9 +12,12 @@
 Python 3 (только стандартная библиотека: json, pathlib)
 
 ## Запуск
+
+```bash
 git clone https://github.com/KirillKoml/bank-operations-widget.git
 cd bank-operations-widget
 python main.py
+```
 
 ## Тесты
 pytest
