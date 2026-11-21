@@ -1,0 +1,5 @@
+git clone https://github.com/KirillKoml/bank-operations-widget.git
+cd bank-operations-widget
+pip install pytest        # только для тестов
+pytest                    # запустить тесты
+python main.py            # запустить программу
