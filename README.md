@@ -1,9 +1,9 @@
-<img width="395" height="383" alt="screenshot" src="https://github.com/user-attachments/assets/2e04aa4e-b696-4515-a59a-a8f917ffa23e" />
-
 # Виджет банковских операций
 
 Учебный проект (курсовая работа Skypro): консольная программа показывает
 5 последних успешных (EXECUTED) банковских операций из файла JSON.
+
+<img width="395" height="383" alt="screenshot" src="https://github.com/user-attachments/assets/2e04aa4e-b696-4515-a59a-a8f917ffa23e" />
 
 ## Возможности
 - сортировка операций по дате (от новых к старым)
