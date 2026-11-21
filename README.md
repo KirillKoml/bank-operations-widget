@@ -22,4 +22,5 @@ python main.py
 ## Тесты
 8 автотестов на pytest
 
-<img width="1280" height="1024" alt="2026-11-21_17-11-46" src="https://github.com/user-attachments/assets/40864419-8da5-4d37-bc74-6f2979210717" />
+<img width="395" height="383" alt="screenshot" src="https://github.com/user-attachments/assets/2e04aa4e-b696-4515-a59a-a8f917ffa23e" />
+
