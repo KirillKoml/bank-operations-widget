@@ -1,10 +1,17 @@
-import funcs.func
-from clases.clases_oper import Operation
+"""Точка входа: вывод пяти последних успешных операций."""
 
-sort_list = funcs.func.last_executed_operation(funcs.func.list_date)
+from models.operation import Operation
+from utils.operations import last_executed_operation, load_operations, sort_by_date
 
-for i in sort_list:
-    gg = Operation(i)
-    print(gg.date())
-    print(gg.from_to())
-    print(f"""{gg.amount()}""")
+
+def main() -> None:
+    operations = sort_by_date(load_operations())
+    for item in last_executed_operation(operations):
+        op = Operation(item)
+        print(op.date())
+        print(op.from_to())
+        print(op.amount())
+
+
+if __name__ == "__main__":
+    main()
